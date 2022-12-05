@@ -55,7 +55,7 @@ def fill_stacks(stacks, crate_rows):
 		for match in matches:
 			crate = match.group()
 			char_pos = match.start()
-			s_index = int(char_pos/4)
+			s_index = int(char_pos/col_length)
 
 			stacks[s_index].push(crate)
 
