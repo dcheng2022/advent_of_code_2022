@@ -169,10 +169,6 @@ if __name__ == '__main__':
 	# 	('/', ['/'], 48381165)
 	# )
 	#
-	# Tests for 7.txt
-	# size_tests = (
-	# 	('cmvvd', 9, 193725)
-	# )
 	# for dir_name, path, size in size_tests:
 	# 	calculated_size = file_system.find_dir_size(dir_name, path)
 	#
